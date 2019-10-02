@@ -1,0 +1,169 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.group:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+body{
+	background: url(images/Back.jpg);
+	font-family: Helvetica, Arial, Sans-serif;
+	line-height: 1.5em;
+	font-size: 14px;
+	color: #666666;
+}
+a{
+	color: #f58220;
+	text-decoration: none;
+	
+}
+a:hover, a:focus{
+	color: #d7721c;
+	text-decoration: none;
+	font-weight: bold;
+}
+#main-wrapper{
+	width: 1000;
+	margin: 0 auto;
+	
+}
+header{
+	text-decoration: none;
+	background: #012A5E;
+	
+}
+.logo a{
+	display: block;
+	color: white;
+	text-align: left;
+	font-family: Arial;
+	font-size: 50;
+	width: 1000px;
+	height: 215px;
+	background: url(images/logo.jpg);
+	
+	text-indent: -9999px;
+	
+}
+.primary ul{
+	background: #87D0DF;
+	
+}
+.primary ul li{
+	list-style: none;
+	float: left;
+	border-right: 1px solid #333333;
+}
+.primary ul li a{
+	display: block;
+	padding: 15px 20px;
+	color: #222222;
+	text-decoration: none;
+}
+.primary ul li a:hover{
+	background: #777777;
+	
+}
+.content-wrap{
+	background: #e5e5e5;
+}
+#main-content{
+	color: #222222;
+	background: #9897a8;
+	float: left;
+	width: 700px;
+	padding: 40px 20px;
+}
+.ff1{
+	float: left;
+	margin-right: 20px;
+	padding: 40px 20px;
+}
+.ff3{
+	float: left;
+	margin-right: 20px;
+	padding: 40px 20px;
+}
+.ff4{
+	float: left;
+	margin-right: 20px;
+	padding: 40px 20px;
+}
+.ff5{
+	float: left;
+	margin-right: 20px;
+	padding: 40px 20px;
+}
+.posts{
+	clear: both;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #bbbbbb;
+}
+.posts div{
+	overflow: hidden;
+}
+.posts h1 a{
+	font-size: 24px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+post h1 a:hover{
+	color: #f58220;
+}
+.post p{
+	padding: 10px 0 20px 0;
+}
+.posts .more{
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+aside{
+	width: 300;
+	height: 1362;
+	background: #becdce;
+	float: left;
+	padding: 40px 20px;
+	margin: 0 auto;
+}
+.side-box{
+	margin-bottom: 40px;
+}
+.side-box ul{
+	margin-left: 10px;
+}
+.side-box ul li{
+	margin-bottom: 10px;
+}
+.sidebar-heading{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #bbbbbb;
+}
+.post-date{	
+	width: 100%;
+	display: inline-block;
+	margin: 5px 0px;
+	font-size: 12px;
+	color: #222222;
+}
+footer{
+	clear: both;
+	background: #012A5E;
+	padding: 20px 0;
+	text-align: center;
+}
+footer small{
+	color: #cccccc;
+	font-size: 12px;
+	
+}
